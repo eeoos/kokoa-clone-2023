@@ -1,0 +1,11 @@
+.alert__point{
+    position:absolute;
+    background-color: tomato;
+    width:5px;
+    height:5px;
+    border-radius: 50%;
+    right:-6px;
+    top:-7px;
+}
+
+

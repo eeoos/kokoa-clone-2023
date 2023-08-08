@@ -1,8 +1,8 @@
 
 
 .recommended-friends{
-    margin:25px 0px;
-    padding:25px 0px;
+    margin:15px 0px;
+    padding:10px 0px;
     border-bottom: var(--main-border); 
     border-top:var(--main-border); 
 }
@@ -24,7 +24,7 @@
     display: flex;
     justify-content: space-between;
     opacity: 0.8;
-    margin-bottom:25px;
+    margin-bottom:15px;
 }
 .open-chat__header span{
     opacity: 0.6;
@@ -97,4 +97,24 @@
 
 .open-post__heart-count span{
     margin-left:3px;
+}
+
+@keyframes heartBeat{
+    0%{
+        color:white;
+        transform: none;
+    }
+    50%{
+        color:tomato;
+        transform: scale(1.5);
+    }
+    100%{
+        color:white;
+        transform: none;
+    }
+}
+
+.open-post__heart-count:hover i {
+    will-change: transform;
+    animation: heartBeat 1s linear infinite;
 }

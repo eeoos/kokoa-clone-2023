@@ -14,7 +14,7 @@
     height:70px;
     border-radius: 30px;
     margin-right:20px;
-
+    object-fit: cover;
 }
 
 .user-component__title{
@@ -55,3 +55,4 @@
     margin-bottom:10px;
     display: block;
 }
+

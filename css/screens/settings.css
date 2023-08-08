@@ -1,3 +1,11 @@
+.alt-header__column i {
+    font-size: 25px;
+    margin-top:10px;
+}
+.alt-header__column:last-child i {
+    margin-top:8px;
+}
+
 .settings__setting{
     padding:20px 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -10,7 +18,7 @@
 .settings__setting i {
     opacity: 0.8;
     margin-right: 20px;
-    font-size:22px
+    font-size:22px  
 }
 
 .settings__setting-column:last-child{
